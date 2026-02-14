@@ -60,7 +60,7 @@ except ImportError as e:
 # ==============================================================================
 # ⚠️ هام جداً: ضع مفاتيحك هنا
 # يفضل استخدام متغيرات البيئة (Environment Variables) للأمان، لكن وضعتها هنا للتسهيل
-TELEGRAM_TOKEN = "8336470928:AAEDLSOnHEZ0qG90yl3Y9wQmgsCYPd8xV_s"
+TELEGRAM_TOKEN = "8411663176:AAGMVVfvQiFXR-dvyil5XYZsgRtvda44fck"
 AI_API_KEY = "AIzaSyBouZKU24Xfy_vSWG0DHlfoOBtTtE4kAjk"  
 
 # إعدادات البوت العامة
