@@ -23,6 +23,8 @@ import json
 import re
 import os
 import sys
+import traceback
+import html
 from datetime import datetime, timedelta
 from typing import Optional, List, Dict, Any, Tuple
 from enum import Enum
@@ -850,7 +852,7 @@ def main():
         print("⚠️ تحذير: مفتاح الـ API للذكاء الاصطناعي يبدو غير صحيح!")
     
     # بناء التطبيق
-    defaults = Defaults(parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True)
+    defaults = Defaults(parse_mode=ParseMode.MARKDOWN)
     application = Application.builder().token(TELEGRAM_TOKEN).defaults(defaults).build()
 
     # 1. إضافة المعالجات الأساسية (Commands)
