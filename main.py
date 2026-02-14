@@ -883,7 +883,7 @@ def main():
     
     # تشغيل البوت (Polling)
     # drop_pending_updates=True: لتجاهل الرسائل التي وصلت والبوت مغلق (يمنع السبايم عند الفتح)
-    application.run_polling(drop_pending_updates=True)
+    application.run_polling(allowed_updates=Update.ALL_TYPES)
 
 if __name__ == "__main__":
     try:
