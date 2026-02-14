@@ -61,7 +61,7 @@ except ImportError as e:
 # ⚠️ هام جداً: ضع مفاتيحك هنا
 # يفضل استخدام متغيرات البيئة (Environment Variables) للأمان، لكن وضعتها هنا للتسهيل
 TELEGRAM_TOKEN = "8336470928:AAEDLSOnHEZ0qG90yl3Y9wQmgsCYPd8xV_s"
-AI_API_KEY = "AIzaSyCrnK79sJGS6VK1hEd8e59sbz8QIKEuUQo"  
+AI_API_KEY = "AIzaSyBouZKU24Xfy_vSWG0DHlfoOBtTtE4kAjk"  
 
 # إعدادات البوت العامة
 BOT_NAME_AR = "منى"
